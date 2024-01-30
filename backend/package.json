@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Apollo Graphql Server For Crud",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Apollo-Graphql",
+    "Mongoose"
+  ],
+  "author": "Sumit S. Save",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.10.0",
+    "mongoose": "^8.1.1",
+    "nodemon": "^3.0.3"
+  }
+}
